@@ -1,0 +1,1 @@
+# schedulazione_cantinetta
