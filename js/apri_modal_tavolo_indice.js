@@ -271,9 +271,7 @@ function loadHistoryProducted(){
 
         success: function(result){
         	$.each(result, function(i, value){
-				var text='<tr><td>'
-					+ value.idprg
-					+'</td>'
+				var text='<tr>'
 					+'<td>'+value.tavolo+'</td>'
 					+'<td>'+value.indice+'</td>'
 					+'<td>'+value.portata+'</td>'

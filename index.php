@@ -23,7 +23,7 @@
   <body>
   <div id="topheader">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#"><strong>Schedulazione Cantinetta</strong></a>
+      <a class="navbar-brand" href="#"><strong>Schedulazione Osteria</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,7 +80,6 @@
          <table class="table table-sm table-striped" id="history-table">
           <thead>
             <tr>    
-              <th scope="col">ID Combine</th>
               <th scope="col">Tavolo</th>
               <th scope="col">Indice</th>
               <th scope="col">Portata</th>

@@ -25,7 +25,7 @@
 							SELECT prog.id FROM (select * from programmazioneordini) AS prog
 							WHERE prog.tavolo=$tavolo
 							AND prog.indice=$indice
-							AND prog.portata=$piatto AND stato=2 LIMIT 1);" ;
+							AND prog.portata=$piatto AND stato=1 LIMIT 1);" ;
 	            if(!esegui_query($link, $query)){
 	                mysqli_rollback($link);
 	                disconnetti_mysql($link, NULL);
